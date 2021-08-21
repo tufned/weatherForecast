@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>UA-Forecast</title>
+</head>
+<body>
+    <section class="main-shell">
+        <div class="main">
+            <div class="title">
+                <h1>Weather Forecast</h1>
+            </div>
+
+
+            <div class="weather">
+
+                <div class="city-name-shell">
+                    <div class="city-name-hover_shell">
+                        <div class="city-name"></div>
+                        <select id="city"></select>
+                    </div>
+                </div>
+
+                <div class="temperature"></div>
+
+                <div class="feels-like">
+                    <p> feels like <span class="feels-like-temp"></span></p>
+                </div>
+
+            </div>
+            
+            
+            <div class="weather-main-shell">
+                <div class="weather-main-line"></div>
+                
+                <div class="weather-main-content">
+                    <div class="icon_and_temps">
+                        <div class="weather-icon"></div>
+                        <div class="weather-max_min-temp">
+                            <p>
+                                <span class="max-temp"></span>
+                                /
+                                <span class="min-temp"></span>&#8451;
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main-info"></div>
+                </div>
+                
+                <div class="weather-main-line"></div>
+            </div>
+            
+            
+            <div class="weather-extra-shell">
+                <div class="humidity-shell weather-extra-margin_low">
+                    <p>Humidity: 
+                        <span class="humidity"></span>
+                    </p>
+                </div>
+
+                <div class="wind-shell weather-extra-margin">
+                    <p>Wind speed: 
+                        <span class="wind"></span>
+                    </p>
+                </div>
+
+                <div class="pressure-shell weather-extra-margin">
+                    <p>Pressure: 
+                        <span class="pressure"></span>
+                    </p>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
